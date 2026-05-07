@@ -1,41 +1,104 @@
 # NutriJoy
 Meal planer 
-# NutriPlan
+# NutriJoy ✨
 
-NutriJoy je aplikacija za personalizovanu ishranu koja korisnicima pravi plan obroka na osnovu njihovih ciljeva, zdravstvenih ograničenja i prehrambenih navika.
+## 📌 Opis projekta
 
-## Opis aplikacije
+NutriJoy je aplikacija za personalizovani plan ishrane koja kreira nedeljni raspored obroka na osnovu podataka koje korisnik unese. Cilj aplikacije je da korisnicima pomogne da lakše organizuju ishranu i razviju zdravije navike kroz jednostavan, zabavan i motivišući sistem.
 
-Aplikacija omogućava korisnicima da naprave svoj profil, unesu osnovne podatke i dobiju plan ishrane prilagođen njihovim potrebama. Svaki obrok sadrži barem jednu alternativu kako bi korisnici imali više izbora.
+Aplikacija kombinuje personalizovane planove ishrane, sistem praćenja napretka i AI chat asistenta koji korisnicima daje savete i podršku.
 
-## Funkcionalnosti
+---
 
-- Registracija i prijava korisnika
-- Kreiranje korisničkog profila
-- Unos podataka potrebnih za plan ishrane
-- Personalizovani planovi obroka
-- Alternativne opcije za svaki obrok
-- Praćenje dnevnih navika ishrane
-- Jednostavan i pregledan dizajn aplikacije
+## 🚀 Kako aplikacija radi
 
-## Kako aplikacija funkcioniše
+1. Korisnik se registruje ili prijavljuje (email + lozinka)
+2. Aplikacija prikazuje dobrodošlicu i kratko uputstvo
+3. Korisnik unosi osnovne podatke:
+   - visina  
+   - težina  
+   - godine  
+   - pol  
+   - cilj (mršavljenje, održavanje, masa)  
+   - alergije ili prehrambena ograničenja  
 
-1. Korisnik kreira nalog ili se prijavljuje
-2. Unosi svoje podatke i ciljeve
-3. Aplikacija generiše plan ishrane
-4. Korisnik može da pregleda obroke i njihove alternative
+4. Na osnovu unetih podataka, aplikacija generiše:
+   - nedeljni plan ishrane (7 dana)
+   - 5 obroka dnevno
+   - tabela sa obrocima
 
-## Tehnologije
+---
+
+## 🍽️ Plan ishrane
+
+- Prikaz u formi tabele (5 obroka × 7 dana)
+- Svaki obrok sadrži:
+  - naziv jela  
+  - kratak opis  
+- Svako polje u tabeli ima ⭐ (zvezdicu)
+
+👉 Korisnik može da klikne na zvezdicu kada pojede obrok  
+👉 Zvezdice se čuvaju na profilu kao pokazatelj napretka i discipline
+
+---
+
+## 🤖 AI Chat agent
+
+Aplikacija uključuje AI asistenta sa kojim korisnik može da:
+- postavlja pitanja o ishrani
+- traži savete
+- dobija preporuke za obroke
+- dobija motivaciju i podršku
+
+AI agent pomaže da plan ishrane bude lakši za praćenje i prilagođen stvarnim potrebama korisnika.
+
+---
+
+## 🎨 Dizajn
+
+- raznobojan i veseo UI
+- moderan i jednostavan interfejs
+- fokus na preglednost i lako korišćenje
+- motivišući vizuelni elementi (zvezdice, kartice, tabele)
+
+---
+
+## ⚙️ Tehnologije
 
 - React Native
 - Expo
 - Firebase
 - JavaScript
 
-## Instalacija
+---
 
-Za pokretanje aplikacije potrebno je:
+## 🎯 Cilj projekta
 
-```bash
-npm install
-npm start
+Cilj NutriJoy aplikacije je da:
+- olakša planiranje ishrane
+- motiviše korisnike da razviju zdrave navike
+- omogući personalizovan pristup ishrani
+- koristi AI kao pomoć u svakodnevnim odlukama
+
+---
+
+## 🔮 Buduća unapređenja
+
+- napredniji AI algoritam za ishranu
+- praćenje kalorija i nutrijenata
+- integracija sa fitness aplikacijama
+- skeniranje hrane putem barkoda
+- leaderboard sistem među korisnicima
+
+---
+
+## 👥 Tim
+
+- Irena Đokić  
+- (dodati ostali članovi tima)
+
+---
+
+## 💡 Napomena
+
+Ovaj projekat je napravljen kao deo hakatona za srednjoškolce sa fokusom na inovaciju, zdravlje i primenu veštačke inteligencije u svakodnevnom životu.
