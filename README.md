@@ -94,7 +94,7 @@ Cilj NutriJoy aplikacije je da:
 ## 👥 Tim
 
 - Irena Đokić  
-- (dodati ostali članovi tima)
+- Nikola Ðurić
 
 ---
 
