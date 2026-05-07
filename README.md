@@ -1,6 +1,5 @@
 # NutriJoy
 Meal planer 
-# NutriJoy ✨
 
 ## 📌 Opis projekta
 
